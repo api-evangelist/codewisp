@@ -1,22 +1,77 @@
 aid: codewisp
 name: Codewisp
-description: Codewisp is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Codewisp is an AI-powered game creation platform that lets anyone build and
+  publish real web games from natural-language prompts, with no coding or
+  game-development tools required. Users describe the game they want and the
+  platform generates the code, structure, and assets automatically, supporting
+  2D, 3D, and multiplayer browser games with instant, prompt-driven refinement.
+  Founded by game developer Elvin Fu and part of Y Combinator's Winter 2026
+  batch, Codewisp reports 2,000+ weekly active creators and 17,000+ games
+  created, offering a browser-based block editor, a community explore and
+  marketplace surface, and shareable instant-play links. Codewisp is a consumer
+  creation product and does not currently publish a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://codewisp.ai/assets/og-image-homepage.png
 url: https://raw.githubusercontent.com/api-evangelist/codewisp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
+x-yc-batch: Winter 2026
+x-tier: profiled
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Game Development
+- Artificial Intelligence
+- Generative AI
+- No-Code
+- Games
+- Developer Tools
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/codewisp-domain-security.yml
+- type: Website
+  url: https://codewisp.ai/
+- type: Documentation
+  url: https://codewisp.ai/documentation
+- type: Blog
+  url: https://codewisp.ai/blog
+- type: FAQ
+  url: https://codewisp.ai/faq
+- type: Pricing
+  url: https://codewisp.ai/pricing
+- type: SignUp
+  url: https://codewisp.ai/sign-in
+- type: Support
+  url: https://discord.gg/QwYHZFpzpz
+- type: TermsOfService
+  url: https://codewisp.ai/terms
+- type: PrivacyPolicy
+  url: https://codewisp.ai/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
