@@ -11,6 +11,17 @@ description: >-
   created, offering a browser-based block editor, a community explore and
   marketplace surface, and shareable instant-play links. Codewisp is a consumer
   creation product and does not currently publish a public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
